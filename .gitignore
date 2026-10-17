@@ -1,0 +1,28 @@
+# Окружения и секреты
+.venv/
+venv/
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Временные данные и журналы
+stats.db
+stats.db-*
+*.db-journal
+app.log
+*.log
+
+# Тестирование и IDE
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+.DS_Store
